@@ -1,0 +1,8 @@
+{
+  "PLS_ADD": {
+    "trivial_cmake_lib": "https://github.com/dkorolev/trivial_cmake_lib"
+  },
+  "PLS_DEP": {
+    "src/trivial_transitive_cmake_lib.cc": ["trivial_cmake_lib"]
+  }
+}
